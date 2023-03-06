@@ -1,0 +1,18 @@
+body{
+    background-size: cover;
+}
+
+img {
+    max-height: 300px;
+    max-width: 300px;
+}
+img:hover{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+ from{box-shadow: 1px,1px,28px rgb(7, 208, 64);}
+ to{box-shadow: 1px,1px,35px rgb(0, 213, 255);}
+}
